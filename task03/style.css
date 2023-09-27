@@ -1,0 +1,47 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        min-height: 100vh;
+    }
+
+    * {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        height: 5vh;
+        width: 50%;
+        background-color: lightskyblue;
+    }
+
+    section:first-of-type {
+        height: 20vh;
+        background-color: lightgreen;
+    }
+
+    section:last-of-type {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 4%;
+    }
+
+    section article:nth-child(1),
+    section article:nth-child(2) {
+        background-color: yellow;
+        height: 20vh;
+        width: 48%;
+    }
+
+    section article:nth-child(3),
+    section article:nth-child(4) {
+        background-color: purple;
+        height: 20vh;
+        width: 48%;
+    }
+
+    footer {
+        height: 5vh;
+        background-color: red;
+        width: 100%;
+    }
+}
