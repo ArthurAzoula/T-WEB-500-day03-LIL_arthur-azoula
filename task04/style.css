@@ -1,0 +1,138 @@
+@media (min-width: 1024px) {
+
+    body {
+        min-height: 100vh;
+    }
+
+    * {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        background-color: lightblue;
+        height: 6vh;
+        width: 25vw;
+    }
+
+    section:first-of-type {
+        background-color: lightgreen;
+        height: 15vh;
+        width: 98.6vw;
+    }
+
+    section:last-of-type {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 1%;
+        height: 66vh;
+    }
+
+
+    section article:nth-child(1), section article:nth-child(2) {
+        /* height: 20vh; */
+        background-color: yellow;
+        width: 30vw;
+    }   
+
+    section article:nth-child(3), section article:nth-child(4) {
+        /* height: 20vh; */
+        background-color: purple;
+        width: 30vw;
+    }
+
+    section article:nth-child(5), section article:nth-child(6) {
+        /* height: 20vh; */
+        background-color: pink;
+        width: 30vw;
+    }
+
+    footer {
+        height: 6vh;
+        background-color: red;
+        position: sticky;
+    }
+
+}
+
+/*  Test with all screen size
+    @media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        min-height: 100vh;
+    }
+
+    * {
+        margin-bottom: 10px;
+    }
+
+    nav {
+        height: 5vh;
+        width: 50%;
+        background-color: lightskyblue;
+    }
+
+    section:first-of-type {
+        height: 20vh;
+        background-color: lightgreen;
+    }
+
+    section:last-of-type {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4%;
+    }
+
+    section article:nth-child(1),
+    section article:nth-child(2) {
+        background-color: yellow;
+        height: 20vh;
+        width: 48%;
+    }
+
+    section article:nth-child(3),
+    section article:nth-child(4) {
+        background-color: purple;
+        height: 20vh;
+        width: 48%;
+    }
+
+    footer {
+        height: 5vh;
+        background-color: red;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    body {
+        min-height: 100vh;
+    }
+
+    * {
+        margin-bottom: 10px;
+    }
+
+    section:first-of-type {
+        min-width: max-content;
+        min-height: 23vh; 
+        background-color: green;
+    }
+
+    header {
+        min-width: max-content;
+        height: 10vh; 
+        background-color: lightskyblue;
+    }
+
+    section article:nth-child(1),
+    section article:nth-child(2) {
+        min-height: 23vh; 
+        background-color: yellow;   
+    }
+
+    footer {
+        min-height: 10vh; 
+        background-color: red;
+    }
+}
+ */
